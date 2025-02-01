@@ -1,0 +1,62 @@
+require("./database/module");
+global.storename = "αмσуz νєяѕιση ѕєνєη";
+global.dana = "083141667141";
+global.qris = "https://telegra.ph/file/589a0b0a07f115c5a8121.jpg";
+global.owner = "6283857703978";
+global.namabot = "αмσуz νєяѕιση ѕєνєη";
+global.nomorbot = "6283857703978";
+global.nameCreator = "αмσуz νєяѕιση ѕєνєη💤";
+global.linkyt = "https://whatsapp.com/channel/0029Vay95gzADTOLyfikk91z";
+global.autoJoin = false;
+global.antilink = true;
+global.versisc = "30";
+global.delayjpm = 5500;
+global.codeInvite = "";
+global.imageurl = "https://img101.pixhost.to/images/170/547935469_skyzopedia.jpg";
+global.isLink = "https://whatsapp.com/channel/0029Vay95gzADTOLyfikk91z";
+global.packname = "αмσуz νєяѕιση ѕєνєη";
+global.author = "αмσуz νєяѕιση ѕєνєη";
+global.jumlah = "5";
+
+//---------------------------------------------------------------------//
+// sange bang? 🗿
+
+global.cucimata1 = "https://files.catbox.moe/9vyzu6.jpg"
+global.cucimata2 = "https://files.catbox.moe/tkj4yi.jpg"
+global.cucimata3 = "https://files.catbox.moe/gu8bga.jpg"
+global.cucimata4 = "https://files.catbox.moe/bne5i5.jpg"
+global.cucimata5 = "https://files.catbox.moe/14zwjl.jpg"
+global.cucimata6 = "https://files.catbox.moe/sq4358.jpg"
+global.cucimata7 = "https://files.catbox.moe/9onfrm.jpg"
+global.cucimata8 = "https://files.catbox.moe/46oew7.jpg"
+global.cucimata9 = "https://files.catbox.moe/ez96ix.jpg"
+global.cucimata10 = "https://files.catbox.moe/7nbqpa.jpg"
+global.cucimata11 = "https://files.catbox.moe/j3upxa.jpg"
+global.cucimata12 = "https://files.catbox.moe/ez96ix.jpg" 
+global.cucimata13 = "https://files.catbox.moe/n1nnju.jpg"
+global.cucimata14 = "https://files.catbox.moe/9dj9fc.jpg"
+global.cucimata15 = "https://files.catbox.moe/sq4358.jpg"
+global.cucimata16 = "https://files.catbox.moe/urhljk.jpg"
+global.cucimata17 = "https://files.catbox.moe/5sbekz.jpg"
+global.cucimata18 = "https://files.catbox.moe/hee0v3.jpg"
+global.cucimata19 = "https://files.catbox.moe/hee0v3.jpg"
+global.cucimata20 = "https://files.catbox.moe/jw3qou.jpg"
+
+//---------------------------------------------------------------------//
+
+global.image = {
+reply: "https://i.ibb.co/5Yf6yPn/file-3081.jpg"
+}
+
+global.mess = {
+  prem: "This Feature Only Use To Premium!",
+  owner: "This Feature Only Use To Owner!",
+};
+
+let v = require.resolve(__filename);
+fs.watchFile(v, () => {
+  fs.unwatchFile(v);
+  console.log(chalk.redBright("Update " + __filename));
+  delete require.cache[v];
+  require(v);
+});
